@@ -29,7 +29,7 @@ module.exports = {
         name: 'Cara - @lekoarts/gatsby-theme-cara',
         short_name: 'Cara',
         description: 'Looking for Tachnical SEO Auditor that help to boost your presence Google Search Engine. Get In touch with met at:+91-9588066361',
-        start_url: '/',
+        start_url: 'https://nikhilsharmaseo.netlify.app/',
         background_color: '#141821',
         theme_color: '#f6ad55',
         display: 'standalone',
