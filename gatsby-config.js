@@ -28,7 +28,7 @@ module.exports = {
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
         short_name: `Cara`,
-        description: `Looking for Tachnical SEO Auditor that help to boost your presence Google Search Engine,
+        description: `Looking for Tachnical SEO Auditor that help to boost your presence Google Search Engine',
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
