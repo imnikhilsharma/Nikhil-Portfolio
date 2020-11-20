@@ -35,7 +35,7 @@ const Footer = () => {
         <Link
           aria-label="Link to the theme's GitHub repository"
           sx={{ ml: 2 }}
-          href="https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara"
+          href="https://github.com/imnikhilsharma/Nikhil-Portfolio"
         >
           Theme
         </Link>
