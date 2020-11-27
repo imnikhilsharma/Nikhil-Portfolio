@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/compare/master...imnikhilsharma:patch-2
+    // See all options: https://github.com/LekoArts/gatsby-themes/edit/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: 'Nikhil Sharma - Professional Web App Auditer',
     siteDescription: `Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361`,
   },
