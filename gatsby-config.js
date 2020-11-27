@@ -57,5 +57,5 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-  ].filter('Boolean'),
-})
+  ].filter(Boolean),
+}
