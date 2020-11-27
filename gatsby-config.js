@@ -61,12 +61,10 @@ module.exports = {
 }
 module.exports = {
   siteMetadata: {
-    title: "Severus Snape",
-    titleTemplate: "%s · The Real Hero",
+    title: "Nikhil Sharma - Professional Web App Auditer",
+    titleTemplate: "%s · Professional Web App Auditer",
     description:
-      "Looking for Tachnical SEO Auditor that help to boost your presence Google Search Engine. Get In touch with met at:+91-9588066361",
-    url: "https://www.doe.com", // No trailing slash allowed!
-    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@occlumency",
-  },
+      "Hogwarts Potions master, Head of Slytherin house and former Death Eater.",
+    url: "https://nikhilsharmaseo.netlify.app/", // No trailing slash allowed!
+      },
 }
