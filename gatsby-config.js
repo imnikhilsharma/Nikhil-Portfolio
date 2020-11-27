@@ -60,4 +60,4 @@ module.exports = {
   ].filter('Boolean'),
 }
 },
-  
+},
