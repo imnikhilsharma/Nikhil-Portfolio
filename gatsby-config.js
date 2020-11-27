@@ -10,6 +10,7 @@ module.exports = {
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/compare/master...imnikhilsharma:patch-2
     siteTitleAlt: 'Nikhil Sharma - Professional Web App Auditer',
+    siteDescription: `Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361`,
   },
   plugins: [
     {
