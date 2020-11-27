@@ -2,9 +2,9 @@ require('dotenv').config({
 path: '.env',
 })
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+'const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
-module.exports = {
+'module.exports' = {
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
@@ -20,14 +20,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        trackingId: 'process.env.GOOGLE_ANALYTICS_ID',
       },
     },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Cara - @lekoarts/gatsby-theme-cara',
-        short_name: 'Cara',
+        short_name: 'Nikhil Sharma Portfolio',
         description: 'Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361',
         start_url: 'https://nikhilsharmaseo.netlify.app/',
         background_color: '#141821',
@@ -49,7 +49,7 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
-    shouldAnalyseBundle && {
+    'shouldAnalyseBundle' && {
       resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
       options: {
         analyzerMode: 'static',
@@ -57,13 +57,16 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-  ].filter(Boolean),
+  ].filter('Boolean'),
 }
-plugins: [
-  {
-    resolve: `gatsby-plugin-canonical-urls`,
-    options: {
-      siteUrl: `https://nikhilsharmaseo.netlify.app/`,
+
+'gatsby-plugin-offline',
+    'gatsby-plugin-netlify',
+    'shouldAnalyseBundle' && {
+      resolve: `gatsby-plugin-canonical-urls',
+     siteUrl: 'https://nikhilsharmaseo.netlify.app/`,
+        analyzerMode: 'static',
+        reportFilename: '_bundle.html',
+        openAnalyzer: false,
+      },
     },
-  },
-]
