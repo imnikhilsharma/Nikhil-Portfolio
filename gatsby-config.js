@@ -22,7 +22,7 @@ module.exports = {
     resolve: `gatsby-plugin-canonical-urls`,
     options: {
       siteUrl: `https://nikhilsharmaseo.netlify.app/`,
-    },
+    }
   },
     {
       resolve: 'gatsby-plugin-google-analytics',
