@@ -63,7 +63,7 @@ plugins: [
   {
     resolve: `gatsby-plugin-canonical-urls`,
     options: {
-      siteUrl: `https://www.example.com`,
+      siteUrl: `https://nikhilsharmaseo.netlify.app/`,
     },
   },
 ]
