@@ -23,11 +23,11 @@ module.exports = {
     options: {
       siteUrl: `https://nikhilsharmaseo.netlify.app/`,
     }
-  },
+    }, 
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'process.env.GOOGLE_ANALYTICS_ID',
+        trackingId: 'process.env.UA-183916754-1',
       },
     },
     {
