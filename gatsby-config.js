@@ -59,12 +59,11 @@ module.exports = {
     },
   ].filter(Boolean),
 }
-module.exports = {
-  siteMetadata: {
-    title: "Nikhil Sharma - Professional Web App Auditer",
-    titleTemplate: "%s · Professional Web App Auditer",
-    description:
-      "Hogwarts Potions master, Head of Slytherin house and former Death Eater.",
-    url: "https://nikhilsharmaseo.netlify.app/", // No trailing slash allowed!
-      },
-}
+plugins: [
+  {
+    resolve: `gatsby-plugin-canonical-urls`,
+    options: {
+      siteUrl: `https://www.example.com`,
+    },
+  },
+]
