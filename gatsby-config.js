@@ -25,6 +25,12 @@ module.exports = {
     }
     }, 
     {
+    resolve: `gatsby-plugin-sitemap`,
+    options: {
+      sitemapSize: 5000
+    }
+  },
+    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-183916754-1',
