@@ -59,7 +59,8 @@ module.exports = {
     },
   ].filter('Boolean'),
 }
-
+},
+},
 'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
     'shouldAnalyseBundle' && {
