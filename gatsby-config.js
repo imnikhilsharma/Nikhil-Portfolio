@@ -69,5 +69,4 @@ module.exports = {
         reportFilename: '_bundle.html',
         openAnalyzer: false,
       },
-    },
-}
+    }
