@@ -61,13 +61,3 @@ module.exports = {
 }
 },
   
-'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
-    'shouldAnalyseBundle' && {
-      resolve: `gatsby-plugin-canonical-urls',
-     siteUrl: 'https://nikhilsharmaseo.netlify.app/`,
-        analyzerMode: 'static',
-        reportFilename: '_bundle.html',
-        openAnalyzer: false,
-      },
-    }
