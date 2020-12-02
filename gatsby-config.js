@@ -21,7 +21,7 @@ module.exports = {
     {
     resolve: `gatsby-plugin-canonical-urls`,
     options: {
-      siteUrl:'https://nikhil-sharma.netlify.app/',
+      siteUrl:'https://nikhilsharma.gtsb.io/',
     }
     }, 
     {
