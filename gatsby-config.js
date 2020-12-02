@@ -13,12 +13,6 @@ module.exports = {
     siteDescription: `Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361`,
   },
   plugins: [
-        {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-183916754-1',
-      },
-     },
     {
       resolve: '@lekoarts/gatsby-theme-cara',
       // See the theme's README for all available options
@@ -36,6 +30,12 @@ module.exports = {
       sitemapSize: 5000
     }
   },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-183916754-1',
+      },
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
