@@ -42,7 +42,7 @@ module.exports = {
         name: 'Cara - @lekoarts/gatsby-theme-cara',
         short_name: 'Nikhil Sharma Portfolio',
         description: 'Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361',
-        start_url: 'https://nikhilsharmaseo.netlify.app/',
+        start_url: 'https://nikhilsharma.gtsb.io/',
         background_color: '#141821',
         theme_color: '#f6ad55',
         display: 'standalone',
