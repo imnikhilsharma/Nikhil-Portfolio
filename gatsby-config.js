@@ -9,7 +9,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/edit/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: 'Nikhil Sharma - Professional Web App Auditer',
+    siteTitleAlt: 'Nikhil Sharma - Professional Web App Auditer | Web Optimization Specialist | SEO',
     siteDescription: `Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361`,
   },
   plugins: [
@@ -42,7 +42,7 @@ module.exports = {
         name: 'Cara - @lekoarts/gatsby-theme-cara',
         short_name: 'Nikhil Sharma Portfolio',
         description: 'Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361',
-        start_url: 'https://nikhilsharma.gtsb.io/',
+        start_url: 'https://nikhil-sharma.netlify.app/',
         background_color: '#141821',
         theme_color: '#f6ad55',
         display: 'standalone',
