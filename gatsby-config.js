@@ -12,10 +12,14 @@ module.exports = {
     siteTitleAlt: 'Nikhil Sharma - Professional Web App Auditer | Web Optimization Specialist | SEO',
     siteDescription: `Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361`,
   },
-  plugins: ['gatsby-plugin-react-helmet'],
-  plugins: [
+    plugins: [
     {
       resolve: '@lekoarts/gatsby-theme-cara',
+      // See the theme's README for all available options
+      options: {},
+    },
+     {
+      resolve: 'gatsby-plugin-react-helmet',
       // See the theme's README for all available options
       options: {},
     },
