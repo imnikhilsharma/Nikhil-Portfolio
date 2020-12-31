@@ -34,6 +34,7 @@ const SEO = ({ title = ``, description = ``, pathname = ``, image = ``, children
     <Helmet title={title} defaultTitle={defaultTitle} titleTemplate={`%s | ${siteTitle}`}>
       <html lang={siteLanguage} />
       <meta name="description" content={seo.description} />
+      <meta name="google-site-verification" content={seo."WUIwqD5MY-N_Aa8TtmHUcvlDIzpca83qYc4ffBbMD5A"} />
       <meta name="image" content={seo.image} />
       <meta property="og:title" content={seo.title} />
       <meta property="og:url" content={seo.url} />
