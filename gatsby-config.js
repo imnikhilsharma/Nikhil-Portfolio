@@ -24,16 +24,17 @@ module.exports = {
       options: {},
     },
     {
-    resolve: `gatsby-plugin-canonical-urls`,
+    resolve: 'gatsby-plugin-canonical-urls',
     options: {
       siteUrl:'https://nikhilsharma.gtsb.io/',
     }
     }, 
     {
-    resolve: `gatsby-plugin-sitemap`,
+    resolve: 'gatsby-plugin-sitemap',
     options: {
       sitemapSize: 5000
     }
+      
   },
     {
     resolve: "gatsby-plugin-google-tagmanager",
@@ -48,6 +49,22 @@ module.exports = {
         head: true
       },
     },
+      {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://nikhilsharma.gtsb.io/',
+        sitemap: 'https://nikhilsharma.gtsb.io/sitemap.xml',
+        env: {
+          development: {
+            policy: [{ userAgent: '*', disallow: ['/'] }]
+          },
+          production: {
+            policy: [{ userAgent: '*', allow: '/' }]
+          }
+        }
+      }
+    },
+
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
