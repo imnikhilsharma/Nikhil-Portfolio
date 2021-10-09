@@ -26,7 +26,7 @@ module.exports = {
     {
     resolve: 'gatsby-plugin-canonical-urls',
     options: {
-      siteUrl:'https://nikhilsharma.gtsb.io/',
+      siteUrl:'https://nikhilsharma.gatsbyjs.io/',
     }
     }, 
     {
@@ -52,8 +52,8 @@ module.exports = {
       {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://nikhilsharma.gtsb.io/',
-        sitemap: 'https://nikhilsharma.gtsb.io/sitemap.xml',
+        host: 'https://nikhilsharma.gatsbyjs.io/',
+        sitemap: 'https://nikhilsharma.gatsbyjs.io/sitemap.xml',
         env: {
           development: {
             policy: [{ userAgent: '*', allow: ['/'] }]
@@ -71,7 +71,7 @@ module.exports = {
         name: 'Cara - @lekoarts/gatsby-theme-cara',
         short_name: 'Nikhil Sharma Portfolio',
         description: 'Looking for Tachnical SEO Auditor that help to boost your presence on Google Search Engine. Get In touch with me at:+91-9588066361',
-        start_url: 'https://nikhil-sharma.netlify.app/',
+        start_url: 'https://nikhilsharma.gatsbyjs.io//',
         background_color: '#141821',
         theme_color: '#f6ad55',
         display: 'standalone',
