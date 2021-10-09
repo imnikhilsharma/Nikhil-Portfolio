@@ -56,7 +56,7 @@ module.exports = {
         sitemap: 'https://nikhilsharma.gtsb.io/sitemap.xml',
         env: {
           development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }]
+            policy: [{ userAgent: '*', allow: ['/'] }]
           },
           production: {
             policy: [{ userAgent: '*', allow: '/' }]
