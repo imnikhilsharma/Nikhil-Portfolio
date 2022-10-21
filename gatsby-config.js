@@ -29,11 +29,13 @@ module.exports = {
       siteUrl:'https://nikhilsharma.gatsbyjs.io/',
     }
     }, 
-    {
-    resolve: 'gatsby-plugin-sitemap',
-    options: {
-      sitemapSize: 1
-    }
+    
+      module.exports = {
+    siteMetadata: {
+      siteUrl: `https://www.example.com`,
+    },
+    plugins: [`gatsby-plugin-sitemap`],
+  }
       
   },
     {
