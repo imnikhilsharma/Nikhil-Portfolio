@@ -32,7 +32,7 @@ module.exports = {
     
       module.exports = {
     siteMetadata: {
-      siteUrl: `https://www.example.com`,
+      siteUrl: `https://nikhilsharma.gatsbyjs.io/`,
     },
     plugins: [`gatsby-plugin-sitemap`],
   }
